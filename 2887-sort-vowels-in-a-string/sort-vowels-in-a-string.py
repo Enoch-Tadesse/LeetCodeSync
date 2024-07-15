@@ -6,7 +6,7 @@ class Solution(object):
         """
         t = ""
         vowels = []
-        vowels_list = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+        vowels_list = "aeiouAEIOU"
         def isVowel(char):
             if char in vowels_list:
                 return True
@@ -17,7 +17,7 @@ class Solution(object):
         vowels.sort()
         j = 0
         for i in range(len(s)):
-            if isVowel(s[i]):
+            if s[i] in vowels_list:
                 t+=(vowels[j])
                 j+=1
             else:
