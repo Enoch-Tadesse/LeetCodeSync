@@ -7,13 +7,9 @@ class Solution(object):
         :type n: int
         :rtype: None Do not return anything, modify nums1 in-place instead.
         """
-        new_sorted = []
-        new_sorted.extend(nums1[:m])
-        new_sorted.extend(nums2)
-        new_sorted.sort()
-        for i in range(len(new_sorted)):
-            nums1[i] = new_sorted[i]
-        return new_sorted
+        for j in range(n):
+            nums1[m+j] = nums2[j]
+        return nums1.sort()
 
                 
         
