@@ -6,9 +6,7 @@ class Solution(object):
         """
         piles.sort()
         output = 0
-        i = len(piles) / 3
-        # new_pile = piles[i::2]
-        for num in piles[i::2]:
+        for num in piles[(len(piles)/3)::2]:
             output+=num
         return output
 
