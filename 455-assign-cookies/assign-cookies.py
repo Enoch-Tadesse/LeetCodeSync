@@ -10,8 +10,6 @@ class Solution(object):
         i = j = 0
         while j < len(s) and i < len(g):
             if g[i] <= s[j]:
-                i , j = i+1 , j+1
-            elif s[j] < g[i]:
-                j+=1
-            
+                i+=1
+            j+=1
         return i
