@@ -5,13 +5,13 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        index_list = []
-        for i in range(len(nums)):
-            it = i+1
-            for j in range(it, len(nums), 1):
-                if nums[i] + nums[j] == target:
-                    index_list.append(i)
-                    index_list.append(j)
-                    return index_list
+        num_idx = {}
+        for idx, num in enumerate(nums):
+            target2 = target - num
+            if target2 in num_idx:
+                return [num_idx[target2], idx]
+            else:
+                num_idx[num] = idx
+        print(num_idx)
 
         
