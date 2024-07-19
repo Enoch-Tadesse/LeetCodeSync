@@ -6,12 +6,13 @@ class Solution(object):
         :rtype: 
         [-1,-1,1,1,2,3]
         """
+        nums.sort()
         count = 0
-        for i in range(len(nums)):
-            for j in range(len(nums)-1, i, -1):
-                sum = nums[i] + nums[j]
-                if sum >= target:
-                    continue
-                else:
-                    count+=1
+        i , j = 0 , len(nums) - 1
+        while i < j:
+            if nums[i] + nums[j] < target:
+                count+=(j-i)
+                i += 1
+            else:
+                j-=1
         return count
