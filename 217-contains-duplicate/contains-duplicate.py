@@ -4,10 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        nums_map = {}
-        for num in nums:
-            if num in nums_map:
-                return True
-            else:
-                nums_map[num] = " "
+        nums2 = set(nums)
+        if len(nums) > len(nums2):
+            return True
         return False
