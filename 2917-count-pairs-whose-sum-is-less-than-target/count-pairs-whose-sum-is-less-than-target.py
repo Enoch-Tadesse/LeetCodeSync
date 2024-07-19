@@ -7,7 +7,6 @@ class Solution(object):
         [-1,1,1,2,3]
         """
         count = 0
-        nums.sort()
         for i in range(len(nums)):
             for j in range(len(nums)-1, i, -1):
                 sum = nums[i] + nums[j]
