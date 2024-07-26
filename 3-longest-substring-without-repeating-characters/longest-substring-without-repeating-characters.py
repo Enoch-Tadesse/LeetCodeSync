@@ -4,15 +4,14 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        coll = set()
-        result = 0
-        i = 0
-        j = 0
-        while j < len(s):
-            while s[j] in coll: 
-                coll.remove(s[i])
-                i+=1
-            coll.add(s[j])
-            j+=1
-            result = max(result, j-i)
-        return result
+        temp = set()
+        l = r = 0
+        output = 0
+        while r < len(s):
+            while s[r] in temp:
+                temp.remove(s[l])
+                l+=1
+            temp.add(s[r])
+            r+=1
+            output = max(r-l, output)
+        return output
