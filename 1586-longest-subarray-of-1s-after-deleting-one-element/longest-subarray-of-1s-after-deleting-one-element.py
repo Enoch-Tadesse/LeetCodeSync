@@ -5,7 +5,7 @@ class Solution(object):
         except:
              return len(nums) - 1
         l = 0
-        result = -1
+        result = r-1
         while r < len(nums):
             temp = r 
             while r<len(nums) and nums[r] != 0:
@@ -13,7 +13,7 @@ class Solution(object):
             result = max(result, r-l-1)
             l = temp
             r+=1
-        return result if result != -1 else len(nums) - 1
+        return result
 
 
 
