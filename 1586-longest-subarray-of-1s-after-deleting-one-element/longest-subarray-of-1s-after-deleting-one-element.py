@@ -1,11 +1,6 @@
 class Solution(object):
     def longestSubarray(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        l = 0
-        r = 0
+        l , r = 0 , 0
         for i in range(len(nums)):
             r+=1
             if nums[i] == 0:
