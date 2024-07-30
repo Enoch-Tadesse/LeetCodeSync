@@ -1,17 +1,8 @@
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        num_idx = {}
-        for idx, num in enumerate(nums):
-            target2 = target - num
-            if target2 in num_idx:
-                return [num_idx[target2], idx]
-            else:
-                num_idx[num] = idx
-        print(num_idx)
-
-        
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hash = {}
+        for i in range(len(nums)):
+            find = target - nums[i]
+            if find in hash:
+                return [hash[find],i]
+            hash[nums[i]] = i
