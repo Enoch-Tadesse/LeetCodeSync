@@ -4,9 +4,9 @@ class Solution:
         r = 0
         max_count = 0
         result = 0
-        counter = defaultdict(int)
+        counter = {}
         for r in range(len(s)):
-            counter[s[r]]+=1
+            counter[s[r]] = 1 + counter.get(s[r], 0)
             max_count = max(max_count, counter[s[r]])
             if (r- l + 1) - max_count > k:
                 counter[s[l]] -= 1
