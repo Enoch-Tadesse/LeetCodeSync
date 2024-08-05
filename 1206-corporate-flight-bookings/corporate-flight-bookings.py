@@ -5,9 +5,9 @@ class Solution:
         for first, last, seats in bookings:
             run[first-1] += seats
             run[last] -= seats
-        print(run)
-        runSum = 0
-        for i in range(len(run)-1):
-            runSum += run[i]
-            output.append(runSum)
-        return output
+        # runSum = 0
+        # for i in range(len(run)-1):
+        #     runSum += run[i]
+        #     output.append(runSum)
+        # return output
+        return accumulate(run[:-1])
