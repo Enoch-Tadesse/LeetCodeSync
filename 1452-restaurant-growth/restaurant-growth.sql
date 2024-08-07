@@ -1,11 +1,24 @@
-# Write your MySQL query statement below
-select distinct visited_on,
-    (select sum(amount)
-    from customer c1
-    where c1.visited_on between date_sub(c.visited_on, interval 6 day) and c.visited_on) as amount,
-    (select round(sum(amount)/7,2)
-    from customer c2
-    where c2.visited_on between date_sub(c.visited_on, interval 6 day) and c.visited_on) as average_amount
+WITH aggr
+AS
+(SELECT
+    visited_on,
+    SUM(amount) AS amount
+  FROM customer
+  GROUP BY visited_on),
+final
+AS
+(SELECT
+    visited_on,
+    SUM(amount) OVER w AS amount,
+    AVG(amount) OVER w AS average_amount,
+    ROW_NUMBER() OVER w AS rn
+  FROM aggr
+  WINDOW w AS (
+  ORDER BY visited_on ROWS BETWEEN 6 PRECEDING AND CURRENT ROW))
 
-from customer c
-where c.visited_on >= date_add((select min(visited_on) from customer), interval 6 day) 
+SELECT
+  visited_on,
+  amount,
+  ROUND(average_amount, 2) AS average_amount
+FROM final
+WHERE rn >= 7;
