@@ -5,7 +5,7 @@ AS
     product_id,
     SUM(unit) AS units
   FROM orders
-  WHERE EXTRACT(MONTH FROM order_date) = 2 and EXTRACT(YEAR FROM order_date)= 2020
+  WHERE DATE_FORMAT(order_date, '%m%y') = '0220'
   GROUP BY product_id
   HAVING units >= 100)
 
