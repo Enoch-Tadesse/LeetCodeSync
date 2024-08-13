@@ -1,19 +1,8 @@
-# Write your MySQL query statement below
-WITH cte
-AS
-(SELECT
-    id,
-    name,
-    departmentId,
-    salary,
-    RANK() OVER (PARTITION BY departmentId
-    ORDER BY salary DESC) AS highest
-  FROM employee)
-SELECT
-  d.name as Department,
-  cte.name as Employee,
-  cte.salary as Salary
-FROM cte
-  JOIN department d
-    ON cte.departmentId = d.id
-WHERE cte.highest = 1;
+SELECT d.name AS Department,
+  e.name AS Employee,
+  e.salary AS Salary
+from employee e
+JOIN department d ON e.departmentId = d.id
+WHERE (e.departmentId, e.salary) IN (SELECT departmentId, max(salary)
+FROM employee
+GROUP BY departmentId);
