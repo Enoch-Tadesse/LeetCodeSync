@@ -1,11 +1,16 @@
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         stack = []
-        operators = {"/", "+", "-", "*"}
+        operators = {
+                "+" : lambda x,y : x+y,
+                "-" : lambda x,y : x-y,
+                "*" : lambda x,y : x*y,
+                "/" : lambda x,y : int(x/y)
+        }
         for token in tokens:
             if token in operators:
-                mem = str(int(eval(stack[-2] + token + stack[-1])))
-                stack = stack[:-2]
-                stack.append(mem)
+                a = int(stack.pop())
+                b = int(stack.pop())
+                stack.append(operators[token](b,a))
             else: stack.append(token)
         return int(stack[0])
