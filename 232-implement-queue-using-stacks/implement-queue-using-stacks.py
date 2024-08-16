@@ -10,17 +10,16 @@ class MyQueue:
     def pop(self) -> int:
         if self.rev:
             return self.rev.pop()
-        else:
-            for _ in range(len(self.stack)):
-                self.rev.append(self.stack.pop())
-            return self.rev.pop()
+        for _ in range(len(self.stack)):
+            self.rev.append(self.stack.pop())
+        return self.rev.pop()
+        
     def peek(self) -> int:
         if self.rev:
             return self.rev[-1]
-        else: return self.stack[0]
+        return self.stack[0]
 
     def empty(self) -> bool:
-        print(self.stack, len(self.stack))
         return len(self.stack) == 0 and len(self.rev) == 0
 
 
