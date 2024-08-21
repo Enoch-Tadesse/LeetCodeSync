@@ -11,6 +11,4 @@ class Solution:
             else:
                 result.appendleft(-1)
             stack.append(nums2[i])
-            [7, ]
-        print(result)
         return [result[nums2.index(item)] for item in nums1]
