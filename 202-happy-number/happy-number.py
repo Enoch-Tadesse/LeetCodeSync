@@ -1,10 +1,13 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
-        seen = set()
-
-        while n!=1 and n not in seen:
+        def get_sqr(num):
+            return sum(int(num2)**2 for num2 in str(num))
+        def helper(n, seen):
+            if n == 1:
+                return True
+            if n in seen:
+                return False
             seen.add(n)
-            n = sum(int(digit) **2 for digit in str(n))
-        return n ==1
-        
+            return helper(get_sqr(n), seen)
+        return helper(n, set())        
         
