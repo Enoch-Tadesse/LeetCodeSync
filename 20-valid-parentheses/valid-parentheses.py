@@ -1,17 +1,17 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
-        myDic = {
-            ']' : '[',
+        match = {
+            ')' : '(',
             '}' : '{',
-            ')' : '('
+            ']' : '['
         }
-        for item in s:
-            if item not in myDic:
-                stack.append(item)
-            elif len(stack) > 0 and stack[-1] == myDic[item]:
+        for char in s:
+            if char not in match:
+                stack.append(char)
+                continue
+            if stack and match[char] == stack[-1]:
                 stack.pop()
-            else: return False
-        if len(stack) == 0:
-            return True
-        return False
+            else:
+                return False
+        return False if stack else True
