@@ -1,15 +1,14 @@
-class Solution(object):
-    def sortColors(self, nums):
+class Solution:
+    def sortColors(self, nums: List[int]) -> None:
         """
-        :type nums: List[int]
-        :rtype: None Do not return anything, modify nums in-place instead.
+        Do not return anything, modify nums in-place instead.
         """
-        count = [0]*3
-        for num in nums:
-            count[num]+=1
-        j = 0
-        for i in range(len(count)):
-            while count[i] > 0:
-                nums[j] = i
-                j+=1
-                count[i]-=1
+        for i in range(len(nums)-1,-1,-1):
+            largest = nums[i]
+            for j in range(i-1 , -1, -1):
+                if nums[j] > nums[i]:
+                    nums[j] , nums[i] = nums[i] , nums[j]
+        
+
+
+        
