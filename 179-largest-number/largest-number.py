@@ -9,4 +9,6 @@ class Solution:
                     nums[j] , nums[i] = nums[i] , nums[j]
         for i in range(len(nums)):
             res+=str(nums[i])
-        return str(int(res))
+        if res[0] == "0":
+            return "0"
+        return res
