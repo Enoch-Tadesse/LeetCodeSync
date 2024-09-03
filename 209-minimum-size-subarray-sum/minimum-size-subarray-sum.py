@@ -1,19 +1,16 @@
-class Solution(object):
-    def minSubArrayLen(self, target, nums):
-        """
-        :type target: int
-        :type nums: List[int]
-        :rtype: int
-        """
+class Solution:
+    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
+        result = float('inf')
         l = 0
         r = 0
-        result = float('inf')
-        temp = 0
-        while r < len(nums):
-            temp += nums[r]
-            while temp >= target:
-                temp -= nums[l]
-                result = min(result, r-l+1)
+        for i in range(1,len(nums)):
+            nums[i] += nums[i-1]
+        nums = [0] + nums
+        print(nums)
+        for r in range(1,len(nums)):
+            print(nums[r])
+            while nums[r] - nums[l] >= target:
                 l+=1
-            r+=1
-        return result if result != float('inf') else 0
+                result = min(result, r-l+1)
+        return 0 if result == float("inf") else result
+            
