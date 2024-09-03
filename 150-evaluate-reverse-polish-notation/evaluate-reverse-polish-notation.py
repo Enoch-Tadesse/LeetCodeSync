@@ -8,13 +8,12 @@ class Solution:
             "/" : lambda x, y: int(x/y)
         }
         for token in tokens:
-            if token not in operators:
-                stack.append(token)
-            else:
+            if token in operators:
                 second = stack.pop()
                 first = stack.pop()
-                num = operators[token](int(first),int(second))
-                stack.append(num)
+                stack.append(operators[token](int(first),int(second)))
+            else:
+                stack.append(token)
         return int(stack[-1])
         # stack = []
         # operators = {
