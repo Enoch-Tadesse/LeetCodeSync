@@ -9,16 +9,13 @@ class Solution:
             while stack and stack[-1] > 0 and  asteroids[i] < 0:
                 toright = abs(stack[-1])
                 toleft = abs(asteroids[i]) 
-                if toright == toleft:
-                    stack.pop()
-                    status = False
-                    break
                 if toright < toleft:
                     stack.pop()
                     continue
-                if toright > toleft:
-                    status = False
-                    break
+                elif toright == toleft:
+                    stack.pop()
+                status = False
+                break
             if status:
                 stack.append(asteroids[i])
         return stack
