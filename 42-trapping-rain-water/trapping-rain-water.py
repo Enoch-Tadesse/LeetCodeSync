@@ -6,7 +6,7 @@ class Solution:
         right = height[r]
         vol = 0
         while l < r:
-            if left < right:
+            if left <= right:
                 l+=1
                 left = max(left, height[l])
                 vol += left - height[l]
