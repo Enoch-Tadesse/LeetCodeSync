@@ -6,7 +6,8 @@ class Solution:
             before[i] = before[i-1] * nums[i-1]
         for j in range(len(after)-2,-1,-1):
             after[j] = after[j+1] * nums[j+1]
-        for k in range(len(nums)):
-            nums[k] = before[k] * after[k]
-        return nums
+            before[j] = after[j] * before[j]
+        # for k in range(len(nums)):
+        #     nums[k] = before[k] * after[k]
+        return before
         
