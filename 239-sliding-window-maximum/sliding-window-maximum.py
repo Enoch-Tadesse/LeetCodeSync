@@ -8,11 +8,11 @@ class Solution:
             while deq and nums[deq[-1]] < nums[j]:
                 deq.pop()
             deq.append(j)
-            if i > deq[0]:
-                deq.popleft()
+            
             if j + 1 >= k:
                 res.append(nums[deq[0]])
                 i+=1
-            
+            if i > deq[0]:
+                deq.popleft()
             j+=1
         return res
