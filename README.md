@@ -28,4 +28,12 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0387-first-unique-character-in-a-string) |
+## Array
+|  |
+| ------- |
+| [0283-move-zeroes](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0283-move-zeroes) |
+## Two Pointers
+|  |
+| ------- |
+| [0283-move-zeroes](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
