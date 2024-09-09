@@ -12,6 +12,7 @@ LeetCodeRepo
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0387-first-unique-character-in-a-string) |
 | [0412-fizz-buzz](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0412-fizz-buzz) |
+| [0443-string-compression](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0443-string-compression) |
 ## Simulation
 |  |
 | ------- |
@@ -37,6 +38,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0283-move-zeroes](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0283-move-zeroes) |
+| [0443-string-compression](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0443-string-compression) |
 ## Greedy
 |  |
 | ------- |
