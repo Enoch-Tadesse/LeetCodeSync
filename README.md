@@ -47,4 +47,5 @@ LeetCodeRepo
 |  |
 | ------- |
 | [1174-sales-analysis-iii](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1174-sales-analysis-iii) |
+| [1268-market-analysis-i](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1268-market-analysis-i) |
 <!---LeetCode Topics End-->
