@@ -43,4 +43,8 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0334-increasing-triplet-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0334-increasing-triplet-subsequence) |
+## Database
+|  |
+| ------- |
+| [1174-sales-analysis-iii](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1174-sales-analysis-iii) |
 <!---LeetCode Topics End-->
