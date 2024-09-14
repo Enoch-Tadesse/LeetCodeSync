@@ -39,6 +39,7 @@ LeetCodeRepo
 | ------- |
 | [0283-move-zeroes](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0283-move-zeroes) |
 | [0443-string-compression](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0443-string-compression) |
+| [0908-middle-of-the-linked-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0908-middle-of-the-linked-list) |
 ## Greedy
 |  |
 | ------- |
@@ -48,4 +49,8 @@ LeetCodeRepo
 | ------- |
 | [1174-sales-analysis-iii](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1174-sales-analysis-iii) |
 | [1268-market-analysis-i](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1268-market-analysis-i) |
+## Linked List
+|  |
+| ------- |
+| [0908-middle-of-the-linked-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0908-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
