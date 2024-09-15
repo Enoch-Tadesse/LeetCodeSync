@@ -6,6 +6,7 @@ LeetCodeRepo
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0002-add-two-numbers) |
 | [0412-fizz-buzz](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0412-fizz-buzz) |
 ## String
 |  |
@@ -52,5 +53,10 @@ LeetCodeRepo
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0002-add-two-numbers) |
 | [0908-middle-of-the-linked-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0908-middle-of-the-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
