@@ -40,6 +40,7 @@ LeetCodeRepo
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0086-partition-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0086-partition-list) |
+| [0148-sort-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0148-sort-list) |
 | [0283-move-zeroes](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0283-move-zeroes) |
 | [0443-string-compression](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0443-string-compression) |
 | [0908-middle-of-the-linked-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0908-middle-of-the-linked-list) |
@@ -58,6 +59,7 @@ LeetCodeRepo
 | [0002-add-two-numbers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0086-partition-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0086-partition-list) |
+| [0148-sort-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0206-reverse-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0908-middle-of-the-linked-list) |
 ## Recursion
@@ -65,4 +67,16 @@ LeetCodeRepo
 | ------- |
 | [0002-add-two-numbers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0206-reverse-linked-list) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0148-sort-list) |
+## Sorting
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0148-sort-list) |
+## Merge Sort
+|  |
+| ------- |
+| [0148-sort-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0148-sort-list) |
 <!---LeetCode Topics End-->
