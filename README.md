@@ -33,6 +33,7 @@ LeetCodeRepo
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0035-search-insert-position) |
 | [0283-move-zeroes](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0334-increasing-triplet-subsequence) |
 ## Two Pointers
@@ -79,4 +80,8 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0148-sort-list) |
+## Binary Search
+|  |
+| ------- |
+| [0035-search-insert-position](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0035-search-insert-position) |
 <!---LeetCode Topics End-->
