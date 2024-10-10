@@ -34,6 +34,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0035-search-insert-position) |
+| [0078-subsets](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0078-subsets) |
 | [0283-move-zeroes](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0334-increasing-triplet-subsequence) |
 | [1127-last-stone-weight](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1127-last-stone-weight) |
@@ -89,4 +90,12 @@ LeetCodeRepo
 |  |
 | ------- |
 | [1127-last-stone-weight](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1127-last-stone-weight) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
