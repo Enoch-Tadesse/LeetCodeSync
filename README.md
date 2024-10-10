@@ -34,6 +34,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0035-search-insert-position) |
+| [0046-permutations](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0078-subsets) |
 | [0283-move-zeroes](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0283-move-zeroes) |
 | [0334-increasing-triplet-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0334-increasing-triplet-subsequence) |
@@ -93,6 +94,7 @@ LeetCodeRepo
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0078-subsets) |
 ## Bit Manipulation
 |  |
