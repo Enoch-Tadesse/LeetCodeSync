@@ -12,6 +12,6 @@ class Solution:
             nums.append(candidates[i])
             back(i,total+candidates[i])
             nums.pop()
-            # total-=candidates[i]
+            total-=candidates[i]
         back(0,0)
         return res
