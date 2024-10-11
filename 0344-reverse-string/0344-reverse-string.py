@@ -11,7 +11,7 @@ class Solution:
         #     j-=1
         output = []
         def helper(s,left,right):
-            if left == right or left > right:
+            if left >= right:
                 return
             s[left] , s[right] = s[right], s[left]
             helper(s,left+1,right-1)
