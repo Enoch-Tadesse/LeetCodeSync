@@ -9,6 +9,7 @@ LeetCodeRepo
 | [0002-add-two-numbers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0002-add-two-numbers) |
 | [0342-power-of-four](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0342-power-of-four) |
 | [0412-fizz-buzz](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0412-fizz-buzz) |
+| [1013-fibonacci-number](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1013-fibonacci-number) |
 ## String
 |  |
 | ------- |
@@ -76,6 +77,7 @@ LeetCodeRepo
 | [0002-add-two-numbers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0002-add-two-numbers) |
 | [0206-reverse-linked-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0206-reverse-linked-list) |
 | [0342-power-of-four](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0342-power-of-four) |
+| [1013-fibonacci-number](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1013-fibonacci-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -107,4 +109,12 @@ LeetCodeRepo
 | ------- |
 | [0078-subsets](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0078-subsets) |
 | [0342-power-of-four](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0342-power-of-four) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1013-fibonacci-number) |
+## Memoization
+|  |
+| ------- |
+| [1013-fibonacci-number](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
