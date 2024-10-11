@@ -103,6 +103,7 @@ LeetCodeRepo
 | ------- |
 | [0039-combination-sum](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0046-permutations) |
+| [0077-combinations](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0078-subsets) |
 ## Bit Manipulation
 |  |
