@@ -9,7 +9,6 @@ class Solution:
         #     s[i] , s[j] = s[j] , s[i]
         #     i+=1
         #     j-=1
-        output = []
         def helper(s,left,right):
             if left >= right:
                 return
