@@ -124,4 +124,17 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
+| [2121-find-if-path-exists-in-graph](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2121-find-if-path-exists-in-graph) |
+## Depth-First Search
+|  |
+| ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2121-find-if-path-exists-in-graph) |
+## Union Find
+|  |
+| ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2121-find-if-path-exists-in-graph) |
+## Graph
+|  |
+| ------- |
+| [2121-find-if-path-exists-in-graph](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2121-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
