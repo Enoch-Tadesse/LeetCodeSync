@@ -1,16 +1,11 @@
 class Solution:
     def findJudge(self, n: int, trust: List[List[int]]) -> int:
-        if len(trust) == 0 and n < 2:
-            return n
-        graph = defaultdict(list)
-        rp = defaultdict(set)
-        trusters = set()
-        for trustee in trust:
-            graph[trustee[0]].append(trustee[1])
-            rp[trustee[1]].add(trustee[0])
-            trusters.add(trustee[0])
-        for cand in rp:
-            if len(rp[cand]) == n-1 and cand not in trusters:
-                return cand
+        aggr = defaultdict(int)
+        for truster , trusted in trust:
+            aggr[truster] -= 1
+            aggr[trusted] += 1
+        for it in range(1, n+1):
+            if aggr[it] == n- 1:
+                return it
         return -1
         
