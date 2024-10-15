@@ -25,6 +25,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0387-first-unique-character-in-a-string) |
+| [1039-find-the-town-judge](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1039-find-the-town-judge) |
 ## Queue
 |  |
 | ------- |
@@ -43,6 +44,7 @@ LeetCodeRepo
 | [0283-move-zeroes](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0283-move-zeroes) |
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
 | [0334-increasing-triplet-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0334-increasing-triplet-subsequence) |
+| [1039-find-the-town-judge](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1039-find-the-town-judge) |
 | [1127-last-stone-weight](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1127-last-stone-weight) |
 ## Two Pointers
 |  |
@@ -136,5 +138,6 @@ LeetCodeRepo
 ## Graph
 |  |
 | ------- |
+| [1039-find-the-town-judge](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1039-find-the-town-judge) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2121-find-if-path-exists-in-graph) |
 <!---LeetCode Topics End-->
