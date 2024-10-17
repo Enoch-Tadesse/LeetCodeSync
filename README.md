@@ -127,6 +127,7 @@ LeetCodeRepo
 ## Breadth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1036-rotting-oranges) |
@@ -134,6 +135,7 @@ LeetCodeRepo
 ## Depth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0207-course-schedule) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2121-find-if-path-exists-in-graph) |
 ## Union Find
@@ -144,6 +146,7 @@ LeetCodeRepo
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0207-course-schedule) |
 | [1039-find-the-town-judge](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1039-find-the-town-judge) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2121-find-if-path-exists-in-graph) |
 ## Matrix
@@ -151,4 +154,8 @@ LeetCodeRepo
 | ------- |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1036-rotting-oranges) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
