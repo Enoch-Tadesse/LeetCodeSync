@@ -11,8 +11,8 @@ class Solution:
         return False
     def explorer(self, graph, node, visited):
         if node in visited:
-            return False
+            return 
         visited.add(node)
         for edge in graph[node]:
             self.explorer(graph, edge, visited)
-        return False
+        
