@@ -13,6 +13,7 @@ LeetCodeRepo
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0344-reverse-string](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0344-reverse-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0387-first-unique-character-in-a-string) |
 | [0412-fizz-buzz](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0412-fizz-buzz) |
@@ -24,6 +25,7 @@ LeetCodeRepo
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0387-first-unique-character-in-a-string](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0387-first-unique-character-in-a-string) |
 | [1039-find-the-town-judge](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1039-find-the-town-judge) |
 ## Queue
@@ -158,4 +160,8 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0207-course-schedule) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
