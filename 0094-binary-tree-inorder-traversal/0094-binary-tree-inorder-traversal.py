@@ -9,7 +9,7 @@ class Solution:
         stack = []
         output = []
         curr = root
-        while curr or stack:
+        while curr or  stack:
             while curr:
                 stack.append(curr)
                 curr = curr.left
