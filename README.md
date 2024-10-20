@@ -137,6 +137,7 @@ LeetCodeRepo
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
 | [0207-course-schedule](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0207-course-schedule) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
@@ -168,13 +169,16 @@ LeetCodeRepo
 ## Stack
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
 <!---LeetCode Topics End-->
