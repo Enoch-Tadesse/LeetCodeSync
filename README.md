@@ -129,6 +129,7 @@ LeetCodeRepo
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0207-course-schedule](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
@@ -138,6 +139,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0094-binary-tree-inorder-traversal) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0145-binary-tree-postorder-traversal) |
 | [0207-course-schedule](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0207-course-schedule) |
@@ -177,12 +179,14 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0094-binary-tree-inorder-traversal) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0145-binary-tree-postorder-traversal) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0094-binary-tree-inorder-traversal) |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0145-binary-tree-postorder-traversal) |
 <!---LeetCode Topics End-->
