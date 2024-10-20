@@ -137,6 +137,7 @@ LeetCodeRepo
 ## Depth-First Search
 |  |
 | ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
 | [0207-course-schedule](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0207-course-schedule) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2121-find-if-path-exists-in-graph) |
@@ -164,4 +165,16 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0003-longest-substring-without-repeating-characters) |
+## Stack
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
+## Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
+## Binary Tree
+|  |
+| ------- |
+| [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
 <!---LeetCode Topics End-->
