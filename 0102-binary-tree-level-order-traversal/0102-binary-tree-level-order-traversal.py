@@ -10,10 +10,12 @@ class Solution:
             return []
         q = deque([(0,root)])
         res = []
+        resLen = 0
         while q:
             idx , curr = q.popleft()
-            if idx >= len(res):
+            if idx >= resLen:
                 res.append([curr.val])
+                resLen+=1
             else:
                 res[idx].append(curr.val)
             if curr.left:
