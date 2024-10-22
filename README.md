@@ -144,6 +144,7 @@ LeetCodeRepo
 | [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0145-binary-tree-postorder-traversal) |
 | [0207-course-schedule](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0207-course-schedule) |
+| [0543-diameter-of-binary-tree](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0543-diameter-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2121-find-if-path-exists-in-graph) |
 ## Union Find
@@ -184,6 +185,7 @@ LeetCodeRepo
 | [0104-maximum-depth-of-binary-tree](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0145-binary-tree-postorder-traversal) |
+| [0543-diameter-of-binary-tree](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0543-diameter-of-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -192,4 +194,5 @@ LeetCodeRepo
 | [0104-maximum-depth-of-binary-tree](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0145-binary-tree-postorder-traversal) |
+| [0543-diameter-of-binary-tree](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0543-diameter-of-binary-tree) |
 <!---LeetCode Topics End-->
