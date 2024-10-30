@@ -44,6 +44,7 @@ LeetCodeRepo
 | [0046-permutations](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0078-subsets) |
 | [0283-move-zeroes](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0283-move-zeroes) |
+| [0300-longest-increasing-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
 | [0334-increasing-triplet-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0334-increasing-triplet-subsequence) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
@@ -101,6 +102,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0035-search-insert-position) |
+| [0300-longest-increasing-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0300-longest-increasing-subsequence) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -120,6 +122,7 @@ LeetCodeRepo
 ## Dynamic Programming
 |  |
 | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
 | [1013-fibonacci-number](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1013-fibonacci-number) |
 ## Memoization
