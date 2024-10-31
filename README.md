@@ -10,6 +10,7 @@ LeetCodeRepo
 | [0342-power-of-four](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0342-power-of-four) |
 | [0412-fizz-buzz](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0412-fizz-buzz) |
 | [1013-fibonacci-number](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1013-fibonacci-number) |
+| [2491-smallest-even-multiple](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2491-smallest-even-multiple) |
 ## String
 |  |
 | ------- |
@@ -198,4 +199,8 @@ LeetCodeRepo
 | [0144-binary-tree-preorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0543-diameter-of-binary-tree) |
+## Number Theory
+|  |
+| ------- |
+| [2491-smallest-even-multiple](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2491-smallest-even-multiple) |
 <!---LeetCode Topics End-->
