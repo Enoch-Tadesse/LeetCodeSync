@@ -49,6 +49,7 @@ LeetCodeRepo
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
 | [0334-increasing-triplet-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0334-increasing-triplet-subsequence) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
+| [0941-sort-array-by-parity](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0941-sort-array-by-parity) |
 | [1036-rotting-oranges](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1039-find-the-town-judge) |
 | [1127-last-stone-weight](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1127-last-stone-weight) |
@@ -62,6 +63,7 @@ LeetCodeRepo
 | [0344-reverse-string](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0344-reverse-string) |
 | [0443-string-compression](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0443-string-compression) |
 | [0908-middle-of-the-linked-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0908-middle-of-the-linked-list) |
+| [0941-sort-array-by-parity](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0941-sort-array-by-parity) |
 ## Greedy
 |  |
 | ------- |
@@ -95,6 +97,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0148-sort-list) |
+| [0941-sort-array-by-parity](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0941-sort-array-by-parity) |
 ## Merge Sort
 |  |
 | ------- |
