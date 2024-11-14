@@ -28,6 +28,7 @@ LeetCodeRepo
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0387-first-unique-character-in-a-string](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0387-first-unique-character-in-a-string) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1034-subarrays-with-k-different-integers) |
 | [1039-find-the-town-judge](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1039-find-the-town-judge) |
 ## Queue
 |  |
@@ -37,6 +38,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0387-first-unique-character-in-a-string) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1034-subarrays-with-k-different-integers) |
 ## Array
 |  |
 | ------- |
@@ -50,6 +52,7 @@ LeetCodeRepo
 | [0334-increasing-triplet-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0334-increasing-triplet-subsequence) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
 | [0941-sort-array-by-parity](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0941-sort-array-by-parity) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1039-find-the-town-judge) |
 | [1127-last-stone-weight](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1127-last-stone-weight) |
@@ -178,6 +181,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0003-longest-substring-without-repeating-characters) |
+| [1034-subarrays-with-k-different-integers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1034-subarrays-with-k-different-integers) |
 ## Stack
 |  |
 | ------- |
