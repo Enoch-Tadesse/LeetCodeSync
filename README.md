@@ -46,6 +46,7 @@ LeetCodeRepo
 | [0039-combination-sum](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0078-subsets) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0283-move-zeroes](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
@@ -129,6 +130,7 @@ LeetCodeRepo
 ## Dynamic Programming
 |  |
 | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0300-longest-increasing-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
 | [1013-fibonacci-number](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1013-fibonacci-number) |
