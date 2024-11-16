@@ -57,6 +57,7 @@ LeetCodeRepo
 | [1036-rotting-oranges](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1039-find-the-town-judge) |
 | [1127-last-stone-weight](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1127-last-stone-weight) |
+| [1603-running-sum-of-1d-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1603-running-sum-of-1d-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -212,4 +213,8 @@ LeetCodeRepo
 |  |
 | ------- |
 | [2491-smallest-even-multiple](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2491-smallest-even-multiple) |
+## Prefix Sum
+|  |
+| ------- |
+| [1603-running-sum-of-1d-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1603-running-sum-of-1d-array) |
 <!---LeetCode Topics End-->
