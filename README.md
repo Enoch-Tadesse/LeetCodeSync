@@ -7,6 +7,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0002-add-two-numbers) |
+| [0069-sqrtx](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0069-sqrtx) |
 | [0342-power-of-four](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0342-power-of-four) |
 | [0412-fizz-buzz](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0412-fizz-buzz) |
 | [1013-fibonacci-number](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1013-fibonacci-number) |
@@ -111,6 +112,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0069-sqrtx) |
 | [0300-longest-increasing-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0300-longest-increasing-subsequence) |
 ## Heap (Priority Queue)
 |  |
