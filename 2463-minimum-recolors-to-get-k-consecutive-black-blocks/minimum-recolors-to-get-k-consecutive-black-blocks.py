@@ -1,23 +1,14 @@
-class Solution(object):
-    def minimumRecolors(self, blocks, k):
-        """
-        :type blocks: str
-        :type k: int
-        :rtype: int
-        """
-        min_p = k
+class Solution:
+    def minimumRecolors(self, blocks: str, k: int) -> int:
+        res = float("inf")
+        l = 0
         curr = 0
-        for i in range(k):
-            if blocks[i] == 'W':
-                curr+=1
-        min_p = min(min_p, curr)
-        for j in range(k,len(blocks)):
-            if blocks[j] == 'W':
-                curr+=1
-            if blocks[j-k] == 'W':
-                curr-=1
-            min_p = min(min_p, curr)
-        return min_p
-
-
-        
+        for r in range(len(blocks)):
+            if r - l + 1 < k:
+                curr += int(blocks[r] == "W")
+                continue
+            curr += int(blocks[r] == "W")
+            res = min(res, curr)
+            curr -= int(blocks[l] == "W")
+            l += 1
+        return res
