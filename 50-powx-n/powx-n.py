@@ -1,20 +1,17 @@
-class Solution(object):
-    def myPow(self, x, n):
-        """
-        :type x: float
-        :type n: int
-        :rtype: float
-        """
-        def pow_calc(x, n):
-            if n == 0:
-                return 1
-            half = pow_calc(x, n // 2)
-            if n % 2 == 0:
-                return half * half
-            else:
-                return half * half * x
-
-        if n < 0:
-            x = 1 / x
-            n = -n
-        return pow_calc(x, n)
+class Solution:
+    def myPow(self, x: float, n: int) -> float:
+        isNeg = n < 0
+        n = abs(n)
+        val = self.helper(x, n)
+        if isNeg:
+            return 1 / val
+        return val
+    @cache
+    def helper(self,x , n):
+        if n == 0:
+            return 1
+        half = self.helper(x, n//2)
+        if n & 1:
+            return half * half * x
+        else:
+            return half * half
