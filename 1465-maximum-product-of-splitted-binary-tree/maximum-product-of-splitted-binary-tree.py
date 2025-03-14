@@ -6,29 +6,26 @@
 #         self.right = right
 class Solution:
     def maxProduct(self, root: Optional[TreeNode]) -> int:
-        self.MOD = 10 ** 9 + 7
-        self.sum = defaultdict(int)
-        self.traverse(root)
+        MOD = 10 ** 9 + 7
+        self.total = self.traverse(root) # get the total sum
 
         self.res = -1
-        self.helper(root, self.sum[root])
-        return self.res % self.MOD
-    def helper(self, root, top):
-        if not root:
-            return
-        l = self.sum[root.left]
-        self.res = max(self.res , l * (top - l))
-        r = self.sum[root.right]
-        self.res = max(self.res, r * (top - r))
-        self.helper(root.left, top)
-        self.helper(root.right, top)
+        self.helper(root)
+        return self.res % MOD
 
     def traverse(self, root):
-        if root in self.sum:
-            return self.sum[root]
         if not root:
             return 0
-        left = self.traverse(root.left)
-        right = self.traverse(root.right)
-        self.sum[root] = (root.val + left + right)
+        return root.val + self.traverse(root.left) + self.traverse(root.right)
+    
+    def helper(self, root):
+        if not root:
+            return 0
+        # get the left and right sum
+        left = self.helper(root.left)
+        right = self.helper(root.right)
+        # try both update bisecting left or right
+        self.res = max(self.res, left * (self.total - left))
+        self.res = max(self.res, right * (self.total - right))
+
         return root.val + left + right
