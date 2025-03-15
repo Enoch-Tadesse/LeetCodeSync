@@ -9,7 +9,6 @@ class Solution:
         if not root:
             return []
         q = deque([root])
-        output = self.traverse(root)
         depth = 0
         while q:
             k = len(q)
@@ -25,8 +24,4 @@ class Solution:
             for i in range(k):
                 q.popleft()
             depth += 1
-        return output[0]
-    def traverse(self, root):
-        if not root:
-            return []
-        return [root, *self.traverse(root.left) , *self.traverse(root.right)]
+        return root
