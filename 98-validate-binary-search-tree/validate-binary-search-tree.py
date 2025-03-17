@@ -19,4 +19,4 @@ class Solution:
         self.res = self.res and (root.val < r_min if root.right else True)
 
         print(f"{root.val=} min={min(root.val, l_min , r_min)} max={max(root.val, l_max, r_max)} {self.res=}")
-        return (min(root.val, l_min , r_min) , max(root.val, l_max, r_max))
+        return (min(root.val, l_min ) , max(root.val, r_max))
