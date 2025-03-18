@@ -28,7 +28,7 @@ class Solution:
             return
         if key < root.val:
             self.delete(root.left, key)
-        if key > root.val:
+        else:
             self.delete(root.right, key)
         
     def insert(self, parent, root):
