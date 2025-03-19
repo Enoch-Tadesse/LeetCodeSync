@@ -1,8 +1,6 @@
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
-        self.counts = defaultdict(int)
-        for num in nums:
-            self.counts[num] += 1
+        self.counts = Counter(nums)
         nums.sort()
         self.ans = []
         self.backtrack(list(), nums, self.counts)
