@@ -1,13 +1,12 @@
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
+        self.ans = []
+        self.back([], 0, nums)
+        return self.ans
 
-        n = len(nums)
-        subsets = []
-        for num in range(1 << n):
-            subset = []  
-            for i in range(32):
-                if num & (1 << i):
-                    subset.append(nums[i])
-            subsets.append(subset)
-        
-        return subsets
+    def back(self,temp, start, nums):
+        self.ans.append(temp[:])
+        for i in range(start, len(nums)):
+            temp.append(nums[i])
+            self.back(temp, i + 1, nums)
+            temp.pop()
