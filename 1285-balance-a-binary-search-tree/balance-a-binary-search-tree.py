@@ -9,12 +9,12 @@ class Solution:
         nums = self.inorder(root)
         root = self.construct(nums, 0, len(nums))
         return root
-        
+
     def construct(self, nums, left, right):
         if left == right:
             return None
         mid = (right + left) // 2
-        root = TreeNode(val=nums[mid])
+        root = nums[mid]
         root.left = self.construct(nums, left, mid)
         root.right = self.construct(nums, mid + 1, right)
         return root
@@ -22,4 +22,4 @@ class Solution:
     def inorder(self, root):
         if not root:
             return []
-        return [*self.inorder(root.left) , root.val, *self.inorder(root.right)]
+        return [*self.inorder(root.left) , root, *self.inorder(root.right)]
