@@ -6,13 +6,19 @@
 #         self.right = right
 class Solution:
     def mergeTrees(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> Optional[TreeNode]:
-        return self.traverse(root1, root2)
-    def traverse(self, root1, root2):
         if not root1:
             return root2
         if not root2:
             return root1
-        mer = TreeNode(val=root1.val + root2.val)
-        mer.left = self.traverse(root1.left, root2.left)
-        mer.right = self.traverse( root1.right, root2.right)
-        return mer
+        self.traverse(root1, root2)
+        return root1
+    def traverse(self, root1, root2):
+        if not root2:
+            return root1
+        if not root1:
+            return root2
+        root1.val += root2.val
+
+        root1.left = self.traverse(root1.left, root2.left)
+        root1.right = self.traverse(root1.right, root2.right)
+        return root1
