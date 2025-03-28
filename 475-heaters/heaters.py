@@ -1,7 +1,8 @@
 class Solution:
     def findRadius(self, houses: List[int], heaters: List[int]) -> int:
-        l , r = 0 , 10 ** 9
         heaters.sort()
+        houses.sort()
+        l , r = 0 , max(houses[-1] , heaters[-1])
         while l <= r:
             mid = l + (r - l) // 2
             if self.valid(mid, houses, heaters):
@@ -14,7 +15,6 @@ class Solution:
             l , r = num - guess , num + guess
             l_exist = bisect_left(heaters, l)
             r_exist = bisect_right(heaters, r)
-            # print(l_exist, r_exist)
             if r_exist - l_exist == 0:
                 return False
         return True
