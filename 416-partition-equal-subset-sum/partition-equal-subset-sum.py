@@ -1,21 +1,16 @@
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
-        nums.sort(reverse=True)
-        self.nums = nums
         total = sum(nums)
         if total & 1:
             return False
-        half = total // 2
-        # look for this half
-        return self.recur(half, 0, 0)
-    @cache
-    def recur(self, target, start, curr):
-        if curr > target:
-            return False
-        if curr == target:
-            return True
-        for i in range(start, len(self.nums)):
-            if self.recur(target, i + 1, curr + self.nums[i]):
-                return True
+        target = total // 2
+        seen = set()
+        seen.add(0)
+        for i in range(len(nums)):
+            temp = list(seen)
+            for num in temp:
+                if num + nums[i] == target:
+                    return True
+                seen.add(num + nums[i])
         return False
-        
+
