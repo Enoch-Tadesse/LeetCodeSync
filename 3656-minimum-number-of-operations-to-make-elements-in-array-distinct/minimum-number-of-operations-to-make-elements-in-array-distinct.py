@@ -1,9 +1,9 @@
 class Solution:
     def minimumOperations(self, nums: List[int]) -> int:
-        seen = defaultdict(int)
+        seen = [-1] * 101
         _max = -3
         for i , num in enumerate(nums):
-            if num in seen:
+            if seen[num] != -1:
                 _max = max(_max, seen[num])       
             seen[num] = i
         return _max // 3 + 1
