@@ -1,25 +1,22 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        adj = defaultdict(lambda : list())
-        for pre , nxt in prerequisites:
-            adj[pre].append(nxt)
-        self.path = set()
-        for i in range(numCourses):
-            self.visited = set()
-            if not self.traverse(i , adj):
-                return False
-            self.path.add(i)
-        return True
+        adj = defaultdict(list)
+        for a , b in prerequisites:
+            adj[a].append(b)
+        WHITE, GRAY , BLACK = 0, 1, 2
+        color = [WHITE] * 2001
 
-    def traverse(self, curr, adj):
-        if curr in self.path:
+        def traverse(curr):
+            color[curr] = GRAY
+            for pre in adj[curr]:
+                if color[pre] == GRAY:
+                    return False
+                if color[pre] == WHITE and not traverse(pre):
+                    return False
+                color[pre] = BLACK
             return True
-        for pre in adj[curr]:
-            if pre in self.visited:
+        for course in range(numCourses):
+            if not traverse(course):
                 return False
-            self.visited.add(pre)
-            if not self.traverse(pre, adj):
-                return False
-            self.visited.discard(pre)
-            self.path.add(pre)
+            color[course] = BLACK
         return True
