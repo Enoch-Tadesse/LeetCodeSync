@@ -21,4 +21,5 @@ class Solution:
             if not self.traverse(pre, adj):
                 return False
             self.visited.discard(pre)
+            self.path.add(pre)
         return True
