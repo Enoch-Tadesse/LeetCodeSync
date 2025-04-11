@@ -1,42 +1,27 @@
 class Solution:
-    def countCompleteComponents(self, n: int, edges: list[list[int]]) -> int:
-        # Create adjacency list representation of the graph
-        graph = [[] for _ in range(n)]
-
-        # Build graph from edges
-        for u, v in edges:
-            graph[u].append(v)
-            graph[v].append(u)
-
-        visited = [False] * n
-        complete_components = 0
-
-        # Process each unvisited vertex
-        for vertex in range(n):
-            if not visited[vertex]:
-                # BFS to find all vertices in the current component
-                component = []
-                queue = [vertex]
-                visited[vertex] = True
-
-                while queue:
-                    current = queue.pop(0)
-                    component.append(current)
-
-                    # Process neighbors
-                    for neighbor in graph[current]:
-                        if not visited[neighbor]:
-                            queue.append(neighbor)
-                            visited[neighbor] = True
-
-                # Check if component is complete (all vertices have the right number of edges)
-                is_complete = True
-                for node in component:
-                    if len(graph[node]) != len(component) - 1:
-                        is_complete = False
+    def countCompleteComponents(self, n: int, edges: List[List[int]]) -> int:
+        adj = defaultdict(list)
+        for a , b in edges:
+            adj[a].append(b)
+            adj[b].append(a)
+        counter = 0
+        self.visited = set()
+        self.path = set()
+        for i in range(n):
+            if i not in self.visited:
+                self.path.clear()
+                self.path.add(i)
+                self.traverse(i, adj)
+                for ele in self.path:
+                    if len(adj[ele]) != len(self.path) - 1:
                         break
-
-                if is_complete:
-                    complete_components += 1
-
-        return complete_components
+                else:
+                    counter += 1
+        return counter
+    def traverse(self, curr, adj):
+        for nei in adj[curr]:
+            if nei not in self.visited:
+                self.visited.add(nei)
+                self.path.add(nei)
+                self.traverse(nei, adj)
+        
