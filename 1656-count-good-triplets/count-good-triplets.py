@@ -4,9 +4,6 @@ class Solution:
         for i in range(len(arr)):
             for j in range(i+1, len(arr)):
                 for k in range(j + 1, len(arr)):
-                    first = abs(arr[i] - arr[j]) <= a
-                    second = abs(arr[j] - arr[k]) <= b
-                    third = abs(arr[i] - arr[k]) <= c
-                    if first and second and third:
+                    if (abs(arr[i] - arr[j]) <= a and abs(arr[j] - arr[k]) <= b and abs(arr[i] - arr[k]) <= c):
                         counter += 1
         return counter
