@@ -59,6 +59,7 @@ LeetCodeRepo
 | [1039-find-the-town-judge](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1039-find-the-town-judge) |
 | [1127-last-stone-weight](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1127-last-stone-weight) |
 | [1603-running-sum-of-1d-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1603-running-sum-of-1d-array) |
+| [2280-count-good-triplets-in-an-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2280-count-good-triplets-in-an-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -99,6 +100,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0148-sort-list) |
+| [2280-count-good-triplets-in-an-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2280-count-good-triplets-in-an-array) |
 ## Sorting
 |  |
 | ------- |
@@ -108,12 +110,14 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0148-sort-list) |
+| [2280-count-good-triplets-in-an-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2280-count-good-triplets-in-an-array) |
 ## Binary Search
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0069-sqrtx) |
 | [0300-longest-increasing-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0300-longest-increasing-subsequence) |
+| [2280-count-good-triplets-in-an-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2280-count-good-triplets-in-an-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -219,4 +223,16 @@ LeetCodeRepo
 |  |
 | ------- |
 | [1603-running-sum-of-1d-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1603-running-sum-of-1d-array) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2280-count-good-triplets-in-an-array) |
+## Segment Tree
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2280-count-good-triplets-in-an-array) |
+## Ordered Set
+|  |
+| ------- |
+| [2280-count-good-triplets-in-an-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2280-count-good-triplets-in-an-array) |
 <!---LeetCode Topics End-->
