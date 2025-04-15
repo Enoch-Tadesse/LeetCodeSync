@@ -3,15 +3,11 @@ class Solution:
         n = len(nums1)
         self.numIdx = {num : i for i , num in enumerate(nums2)}
         self.res = [0] * n
+        self.res2 = [0] * n
         self.merge_sort(nums1)
-        arr1 = self.res[::]
-        self.res = [0] * n
-        self.numIdx = {num : n - i - 1 for i , num in enumerate(nums2)}
-        self.merge_sort(list(reversed(nums1)))
-        arr2 = self.res[::]
         counter = 0
         for i in range(n):
-            counter += arr1[i] * arr2[i]
+            counter += self.res[i] * self.res2[i]
         return counter
 
     def merge_sort(self, nums) -> List[int]:
@@ -25,12 +21,16 @@ class Solution:
         while i < len(nums1) and j < len(nums2):
             if self.numIdx[nums1[i]] < self.numIdx[nums2[j]]:
                 res.append(nums1[i])
+                self.res2[nums1[i]] += len(nums2) - j
                 i += 1
             else:
                 res.append(nums2[j])
                 self.res[nums2[j]] += i
                 j += 1
-        res.extend(nums1[i:])
+        while i < len(nums1):
+            res.append(nums1[i])
+            self.res2[nums1[i]] += len(nums2) - j
+            i += 1
         while j < len(nums2):
             res.append(nums2[j])
             self.res[nums2[j]] += i
