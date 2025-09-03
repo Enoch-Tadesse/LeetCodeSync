@@ -18,11 +18,8 @@ class WordDictionary:
         root.end = True
 
     def srh(self, word, i,  root):
-        if i == len(word) - 1 and word[i] == ".":
-            for r in root.chs:
-                if r and r.end:
-                    return True
-            return False
+        if i == len(word):
+            return root.end
         for j in range(i , len(word)):
             w = word[j]
             if w == ".":
