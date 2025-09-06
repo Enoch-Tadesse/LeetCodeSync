@@ -53,6 +53,7 @@ LeetCodeRepo
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
 | [0334-increasing-triplet-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0334-increasing-triplet-subsequence) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0941-sort-array-by-parity](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0941-sort-array-by-parity) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1036-rotting-oranges) |
@@ -134,12 +135,14 @@ LeetCodeRepo
 | ------- |
 | [0078-subsets](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0078-subsets) |
 | [0342-power-of-four](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0342-power-of-four) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0934-bitwise-ors-of-subarrays) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0300-longest-increasing-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
+| [0934-bitwise-ors-of-subarrays](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0934-bitwise-ors-of-subarrays) |
 | [1013-fibonacci-number](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1013-fibonacci-number) |
 ## Memoization
 |  |
