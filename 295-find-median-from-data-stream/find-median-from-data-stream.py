@@ -10,9 +10,9 @@ class MedianFinder:
             heappush(self._min, num)
         else:
             heappush(self._max, -num)
-        while len(self._max) > len(self._min) + 1:
+        if len(self._max) > len(self._min) + 1:
             heappush(self._min, -1 * heappop(self._max))
-        while len(self._min) > len(self._max) + 1:
+        if len(self._min) > len(self._max) + 1:
             heappush(self._max, -1 * heappop(self._min))
 
     def findMedian(self) -> float:
