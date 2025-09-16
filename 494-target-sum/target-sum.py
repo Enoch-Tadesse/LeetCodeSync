@@ -4,9 +4,8 @@ class Solution:
         seen[0] = 1
         for num in nums:
             brand = defaultdict(int)
-            for ele in seen:
-                count = seen[ele]
-                brand[ele - num] += count
-                brand[ele + num] += count
+            for key, value in seen.items():
+                brand[key - num] += value
+                brand[key + num] += value
             seen = brand
         return seen[target]
