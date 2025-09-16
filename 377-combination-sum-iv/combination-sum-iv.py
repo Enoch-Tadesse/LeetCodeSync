@@ -1,8 +1,9 @@
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
-        ways = Counter(nums)
-
+        dp = [0] * (target + 1)
+        dp[0] = 1
         for i in range(1, target + 1):
             for j in nums:
-                ways[i] += ways[i - j]
-        return ways[target] 
+                if i - j > -1:
+                    dp[i] += dp[i - j]
+        return dp[target] 
