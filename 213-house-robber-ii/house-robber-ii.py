@@ -9,5 +9,7 @@ class Solution:
                 j = j % len(nums)
                 t, nt = max(t, nt + nums[j]), t
             ans = max(ans, t, nt)
+            if i > 1:
+                break
         return ans
         
