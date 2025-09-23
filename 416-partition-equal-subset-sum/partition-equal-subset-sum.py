@@ -4,13 +4,12 @@ class Solution:
         if total & 1:
             return False
         target = total // 2
-        seen = set()
-        seen.add(0)
-        for i in range(len(nums)):
-            temp = list(seen)
-            for num in temp:
-                if num + nums[i] == target:
-                    return True
-                seen.add(num + nums[i])
+        nums.sort()
+        curr = set([0])
+        for num in nums:
+            new = list(curr)
+            for ele in new:
+                curr.add(num + ele)
+            if target in curr:
+                return True
         return False
-
