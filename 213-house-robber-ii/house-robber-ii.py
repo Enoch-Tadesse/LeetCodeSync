@@ -5,9 +5,9 @@ class Solution:
         ans = 0
         for i in range(len(nums)):
             t, nt = 0 , 0
-            new = nums[i+1:] + nums[:i]
-            for j in range(len(new)):
-                t, nt = max(t, nt + new[j]), t
+            for j in range(i + 1, len(nums) + i):
+                j = j % len(nums)
+                t, nt = max(t, nt + nums[j]), t
             ans = max(ans, t, nt)
         return ans
         
