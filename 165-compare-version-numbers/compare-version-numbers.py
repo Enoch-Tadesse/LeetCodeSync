@@ -6,12 +6,6 @@ class Solution:
             v1.pop()
         while v2 and v2[-1] == 0:
             v2.pop()
-        if not v1 and not v2:
-            return 0
-        elif not v1:
-            return -1
-        elif not v2:
-            return 1
         for i in range(min(len(v1), len(v2))):
             if v1[i] > v2[i]:
                 return 1
