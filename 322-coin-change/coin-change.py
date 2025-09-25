@@ -10,9 +10,7 @@ class Solution:
             ans = float("inf")
             for num in nums:
                 if curr - num >= 0:
-                    cand = dp(curr - num)
-                    cand2 = 1
-                    ans = min(ans, cand + cand2)
+                    ans = min(dp(curr - num) + 1, ans)
             return ans
         ans = dp(amount)
         return -1 if ans == float("inf") else ans
