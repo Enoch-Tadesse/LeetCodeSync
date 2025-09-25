@@ -1,12 +1,11 @@
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
-        @cache
-        def dp(row, index):
-            if row == len(triangle):
-                return 0
-            right = float("inf")
-            if index < len(triangle[row]):
-                right = dp(row + 1, index + 1)
-            left = dp(row + 1, index)
-            return min(right, left) + triangle[row][index]
-        return dp(0, 0)
+        for i in range(1, len(triangle)):
+            for j in range(len(triangle[i])):
+                cand = float("inf")
+                dir = [-1, 0]
+                for d in dir:
+                    if 0 <= j + d < len(triangle[i-1]):
+                        cand = min(cand, triangle[i-1][j + d])
+                triangle[i][j] += cand
+        return min(triangle[-1])
