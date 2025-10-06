@@ -53,6 +53,7 @@ LeetCodeRepo
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
 | [0334-increasing-triplet-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0334-increasing-triplet-subsequence) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
+| [0794-swim-in-rising-water](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0794-swim-in-rising-water) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0941-sort-array-by-parity](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0941-sort-array-by-parity) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1034-subarrays-with-k-different-integers) |
@@ -118,10 +119,12 @@ LeetCodeRepo
 | [0035-search-insert-position](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0069-sqrtx) |
 | [0300-longest-increasing-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0300-longest-increasing-subsequence) |
+| [0794-swim-in-rising-water](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0794-swim-in-rising-water) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2280-count-good-triplets-in-an-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0794-swim-in-rising-water](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0794-swim-in-rising-water) |
 | [1127-last-stone-weight](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1127-last-stone-weight) |
 ## Backtracking
 |  |
@@ -156,6 +159,7 @@ LeetCodeRepo
 | [0207-course-schedule](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0207-course-schedule) |
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
+| [0794-swim-in-rising-water](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0794-swim-in-rising-water) |
 | [1036-rotting-oranges](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1036-rotting-oranges) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2121-find-if-path-exists-in-graph) |
 ## Depth-First Search
@@ -168,11 +172,13 @@ LeetCodeRepo
 | [0207-course-schedule](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0207-course-schedule) |
 | [0543-diameter-of-binary-tree](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0543-diameter-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
+| [0794-swim-in-rising-water](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0794-swim-in-rising-water) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2121-find-if-path-exists-in-graph) |
 ## Union Find
 |  |
 | ------- |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
+| [0794-swim-in-rising-water](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0794-swim-in-rising-water) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2121-find-if-path-exists-in-graph) |
 ## Graph
 |  |
@@ -184,6 +190,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
+| [0794-swim-in-rising-water](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0794-swim-in-rising-water) |
 | [1036-rotting-oranges](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1036-rotting-oranges) |
 ## Topological Sort
 |  |
