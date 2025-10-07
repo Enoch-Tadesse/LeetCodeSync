@@ -4,7 +4,7 @@ class Solution:
         ac = lcm(a, c)
         bc = lcm(b, c)
         abc = lcm(a, b, c)
-        l , r = 0 , 2 * 10 ** 9 + 2
+        l , r = 0 , min(2 * 10 ** 9 + 2, n * min(a,b,c))
         while l <= r:
             mid = l + (r - l) // 2
             res = self.can(mid, a, b , c, ab, ac, bc, abc)
