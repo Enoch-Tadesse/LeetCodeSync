@@ -9,14 +9,12 @@ class Solution:
     @cache
     def dfs(self, curr, key, start):
         if start == len(key):
-            # self.ans = min(self.ans, cost)
             return 0
         cand = float("inf")
         for ind in self.index[key[start]]:
+            cost = self.dfs(ind, key, start + 1)
             step1 = abs(curr - ind)
-            cost1 = self.dfs(ind, key, start + 1)  + step1 + 1
-            step2 = self.length - step1
-            cost2 = self.dfs(ind, key, start + 1)  + step2 + 1
-            cand = min(cand, cost1, cost2)
+            step2 = (self.length - abs(curr - ind))
+            cand = min(cand, step1 + cost + 1, step2 + cost + 1)
         return cand
         
