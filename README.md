@@ -52,6 +52,7 @@ LeetCodeRepo
 | [0300-longest-increasing-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0322-coin-change) |
 | [0334-increasing-triplet-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0334-increasing-triplet-subsequence) |
+| [0414-third-maximum-number](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0414-third-maximum-number) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
 | [0794-swim-in-rising-water](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0794-swim-in-rising-water) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0934-bitwise-ors-of-subarrays) |
@@ -107,6 +108,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0148-sort-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0148-sort-list) |
+| [0414-third-maximum-number](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0414-third-maximum-number) |
 | [0941-sort-array-by-parity](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0941-sort-array-by-parity) |
 ## Merge Sort
 |  |
