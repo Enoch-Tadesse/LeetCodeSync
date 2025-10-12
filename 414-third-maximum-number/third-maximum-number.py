@@ -1,14 +1,17 @@
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:
-        top = mid = bot = float("-inf")
+        f = s = t = float("-inf")
+        seen = set()
         for num in nums:
-            if num == top or num == bot or num == mid:
+            if num in seen:
                 continue
-            if num > top:
-                top , mid, bot = num , top, mid
-            elif num >= mid:
-                mid , bot = num , mid
-            elif num > bot:
-                bot = num
-        # print(top, mid, bot)
-        return bot if bot != float("-inf") else top
+            seen.add(num)
+            if num > f:
+                f, s, t = num, f, s
+            elif num > s:
+                s, t = num, s
+            elif num > t:
+                t = num
+        if t != float("-inf"):
+            return t
+        return max(f, s, t)
