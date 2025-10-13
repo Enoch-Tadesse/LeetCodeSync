@@ -1,13 +1,18 @@
 class Solution:
     def countDistinctIntegers(self, nums: List[int]) -> int:
-        counts = defaultdict(int)
+        counts = set()
         for num in nums:
-            num = str(num)
-            rev = num[::-1]
-            i = 0
-            while i < len(rev) and rev[i] == "0":
-                i += 1
-            rev = rev[i:]
-            counts[num] += 1
-            counts[rev] += 1
-        return len(counts.keys())
+            counts.add(num)
+            rev = 0
+            first = True
+            while num > 0:
+                right = num % 10
+                if right != 0:
+                    first = False
+                num //= 10
+                if first and right == 0:
+                    continue
+                rev = rev * 10 + right
+            if rev != 0:
+                counts.add(rev)
+        return len(counts)
