@@ -1,42 +1,42 @@
 class Trie:
     def __init__(self):
-        self.chs = [None for _ in range(26)]
+        self.children = dict()
         self.end = False
 
+    def insert(self, word):
+        root = self
+        for w in word:
+            if w not in root.children:
+                root.children[w] = Trie()
+            root = root.children[w]
+        root.end = True
+
+    def search(self, word):
+        stack = [(self, 0)] # stores (node, idx)
+        while stack:
+            node, idx = stack.pop()
+            if idx == len(word):
+                if node.end:
+                    return True
+                continue
+            char = word[idx]
+            if char != ".":
+                if char in node.children:
+                    stack.append((node.children[char], idx + 1))
+            else:
+                for child in node.children:
+                    stack.append((node.children[child], idx + 1))
+        return False
 class WordDictionary:
 
     def __init__(self):
-        self.root = Trie()
+        self.trie = Trie()
 
     def addWord(self, word: str) -> None:
-        root = self.root
-        for w in word:
-            idx = ord(w) - ord('a')
-            if not root.chs[idx]:
-                root.chs[idx] = Trie()
-            root = root.chs[idx]
-        root.end = True
-
-    def srh(self, word, i,  root):
-        if i == len(word):
-            return root.end
-        for j in range(i , len(word)):
-            w = word[j]
-            if w == ".":
-                for r in root.chs:
-                    if not r:
-                        continue
-                    if self.srh(word, j + 1, r):
-                        return True
-                return False
-            idx = ord(w) - ord('a')
-            if not root.chs[idx]:
-                return False
-            root = root.chs[idx]
-        return root.end
+        self.trie.insert(word)
 
     def search(self, word: str) -> bool:
-        return self.srh(word, 0, self.root)
+        return self.trie.search(word)
 
 
 # Your WordDictionary object will be instantiated and called as such:
