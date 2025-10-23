@@ -6,10 +6,11 @@ class Solution:
             ch = changed[i]
             co = cost[i]
             adj[og].append((ch, co))
-            
+        lookup = dict()
         @cache
         def calculate(start, end):
-            ans = float("inf")
+            if (start, end) in lookup:
+                return lookup[(start, end)]
             h = [(0, start)]
             visited = set()
             while h:
@@ -18,8 +19,8 @@ class Solution:
                     return wei
                 if ele in visited:
                     continue
-                ans = min(ans, wei)
                 visited.add(ele)
+                lookup[(start, ele)] = wei 
                 for nei, cost in adj[ele]:
                     heappush(h, (cost + wei, nei))
             return -1
