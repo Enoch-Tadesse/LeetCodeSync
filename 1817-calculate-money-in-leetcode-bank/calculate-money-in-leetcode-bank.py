@@ -1,8 +1,8 @@
 class Solution:
     def totalMoney(self, n: int) -> int:
-        counter = 0
-        for i in range(n):
-            week = i // 7
-            add = i % 7 + 1
-            counter += add + week
+        week = n // 7
+        counter = 28 * week
+        counter += (week * (week - 1) * 7) // 2
+        for i in range(n % 7):
+            counter += (i + 1 + week)
         return counter
