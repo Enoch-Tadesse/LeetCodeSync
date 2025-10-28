@@ -4,7 +4,6 @@ class Solution:
     def countPairs(self, deliciousness: List[int]) -> int:
         counter = 0
         nums = deliciousness
-        nums.sort()
         counts = defaultdict(int)
         for num in nums:
             for p in powers:
