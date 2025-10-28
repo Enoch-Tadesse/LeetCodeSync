@@ -31,6 +31,7 @@ LeetCodeRepo
 | [0387-first-unique-character-in-a-string](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0387-first-unique-character-in-a-string) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1034-subarrays-with-k-different-integers) |
 | [1039-find-the-town-judge](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1039-find-the-town-judge) |
+| [1830-count-good-meals](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1830-count-good-meals) |
 ## Queue
 |  |
 | ------- |
@@ -62,6 +63,7 @@ LeetCodeRepo
 | [1039-find-the-town-judge](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1039-find-the-town-judge) |
 | [1127-last-stone-weight](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1127-last-stone-weight) |
 | [1603-running-sum-of-1d-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1603-running-sum-of-1d-array) |
+| [1830-count-good-meals](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1830-count-good-meals) |
 | [2280-count-good-triplets-in-an-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2280-count-good-triplets-in-an-array) |
 ## Two Pointers
 |  |
