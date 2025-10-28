@@ -1,4 +1,4 @@
-powers = [2 ** i for i in range(0, 22)]
+powers = [1 << i for i in range(0, 22)]
 mod = 10 ** 9 + 7
 class Solution:
     def countPairs(self, deliciousness: List[int]) -> int:
@@ -7,9 +7,6 @@ class Solution:
         counts = defaultdict(int)
         for num in nums:
             for p in powers:
-                if num > p:
-                    continue
-                target = p - num
-                counter = (counter + counts[target]) % mod
+                counter = (counter + counts[p - num]) % mod
             counts[num] += 1
         return counter % mod
