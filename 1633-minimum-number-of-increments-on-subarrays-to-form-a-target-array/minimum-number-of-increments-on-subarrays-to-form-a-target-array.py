@@ -44,7 +44,7 @@ class Solution:
         nums = target
         stack = [(0, len(target) - 1, 0)]
         counter = 0
-        
+
         while stack:
             l, r, dec = stack.pop()
             if r < l:
@@ -63,8 +63,8 @@ class Solution:
             
             last = l
             for i in positions:
-                if last <= i - 1:
-                    stack.append((last, i - 1, dec + actual))
+                # if last <= i - 1:
+                stack.append((last, i - 1, dec + actual))
                 last = i + 1
             if last <= r:
                 stack.append((last, r, dec + actual))
