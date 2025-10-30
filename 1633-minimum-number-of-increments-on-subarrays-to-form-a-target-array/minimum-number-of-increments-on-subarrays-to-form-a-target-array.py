@@ -59,36 +59,13 @@ class Solution:
             arr = index[_min]
             left = bisect_left(arr, l)
             right = bisect_right(arr, r)
-            positions = arr[left:right]
             
             last = l
-            for i in positions:
-                # if last <= i - 1:
-                stack.append((last, i - 1, dec + actual))
-                last = i + 1
+            for i in range(left, right):
+                stack.append((last, arr[i] - 1, dec + actual))
+                last = arr[i] + 1
             if last <= r:
                 stack.append((last, r, dec + actual))
-            
             counter += actual
         return counter
-        # counter += solve(last, i, dec + actual)
-        # def solve(l , r, dec):
-        #     if r < l:
-        #         return 0
-        #     if r == l:
-        #         return nums[l] - dec
-        #     _min = seg.range_min(l , r)
-        #     actual = _min - dec
-        #     last = l
-        #     counter = 0
-        #     for i in index[_min]:
-        #         if i < l:
-        #             continue
-        #         if i > r:
-        #             break
-        #         counter += solve(last, i, dec + actual)
-        #         last = i + 1
-        #     return counter
-        # return solve(0, len(target) - 1, 0)
-
         
