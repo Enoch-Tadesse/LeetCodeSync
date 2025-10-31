@@ -1,15 +1,6 @@
 class Solution:
     def distributeCandies(self, n: int, limit: int) -> int:
-        if n < limit:
-            limit = n
-        def calculate(left):
-            _max = min(limit, left)
-            _min = left - _max
-            return _max - _min + 1
         ans = 0
-        for i in range(max(0, n - 2 * limit), n + 1):
-            if i > limit:
-                break
-            left = n - i
-            ans += calculate(left)
+        for i in range(max(0, n - 2 * limit), min(limit + 1, n + 1)):
+            ans += 2 * min(limit, n - i) - (n - i) + 1
         return ans
