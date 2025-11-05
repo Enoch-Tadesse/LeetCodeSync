@@ -1,6 +1,7 @@
 class Solution:
     def numJewelsInStones(self, jewels: str, stones: str) -> int:
-        counter = 0
-        for j in jewels:
-            counter += stones.count(j)
-        return counter
+        counts = 0
+        for stone in stones:
+            if stone in jewels:
+                counts += 1
+        return counts
