@@ -29,25 +29,25 @@ class Solution:
             parent[i] = find(i)
         ans = []
         # smallest , live
-        checker = defaultdict(lambda : [[], set()])
+        live = [True] * (c + 1)
+        checker = defaultdict(list)
         for c, p in parent.items():
-            checker[p][1].add(c)
-            heappush(checker[p][0], c)
+            heappush(checker[p], c)
 
         for sign, ele in queries:
             par = parent[ele]
-            heap, coll = checker[par]
+            heap = checker[par]
             if sign == 1:
-                if ele in coll:
+                if live[ele]:
                     ans.append(ele)
                     continue
-                while heap and heap[0] not in coll:
+                while heap and live[heap[0]] is False:
                     heappop(heap)
                 if not heap:
                     ans.append(-1)
                 else:
                     ans.append(heap[0])
             else:
-                coll.discard(ele)
+                live[ele] = False
         return ans
 
