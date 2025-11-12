@@ -18,9 +18,8 @@ class Solution:
             while True:
                 temp = head.next
                 if head.child:
-                    child = head.child
+                    head.next , head.child.prev = head.child, head
                     head.child = None
-                    head.next , child.prev = child, head
                     head = head.next
                     iterate()
                 if temp:
