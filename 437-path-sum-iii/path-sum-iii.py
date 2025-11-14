@@ -10,15 +10,18 @@ class Solution:
         def dfs(node):
             nonlocal counter
             if not node:
-                return {}
-            out = dict()
+                return defaultdict(int)
+            out = defaultdict(int)
+
             l = dfs(node.left)
             r = dfs(node.right)
+
             for k , v in l.items():
-                out[k + node.val] = out.get(k + node.val, 0) + v
+                out[k + node.val] += v
             for k , v in r.items():
-                out[k + node.val] = out.get(k + node.val, 0) + v
-            out[node.val] = out.get(node.val, 0) + 1
+                out[k + node.val] += v
+            out[node.val] += 1
+
             if targetSum in out:
                 counter += out[targetSum]
             return out
