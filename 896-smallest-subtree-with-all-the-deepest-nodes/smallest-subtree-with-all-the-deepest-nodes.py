@@ -27,6 +27,8 @@ class Solution:
             nonlocal found
             if not node:
                 return 0
+            if found:
+                return 0
             x = dfs2(node.left, depth + 1)
             y = dfs2(node.right, depth + 1)
             cand = x + y + (depth == _max)
