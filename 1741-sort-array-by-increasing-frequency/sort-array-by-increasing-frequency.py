@@ -1,15 +1,14 @@
-class Solution(object):
-    def frequencySort(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
-        fre = {}
+class Solution:
+    def frequencySort(self, nums: List[int]) -> List[int]:
+        counts = {}
         for num in nums:
-            if num not in fre:
-                fre[num] = 1
-            else: fre[num] += 1
-        return sorted(nums, key = lambda x : (fre[x], -x))
-        
-        
-        
+            counts[num] = counts.get(num, 0) + 1
+        for i in range(len(nums)):
+            for j in range(len(nums) - i -1):
+                f1 , f2 = counts[nums[j]] , counts[nums[j + 1]]
+                if f1 > f2:
+                    nums[j] , nums[j + 1] = nums[j + 1] , nums[j]
+                elif f1 == f2:
+                    if nums[j] < nums[j + 1]:
+                        nums[j], nums[j + 1] = nums[j + 1] , nums[j]
+        return nums
