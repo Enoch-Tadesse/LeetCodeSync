@@ -5,5 +5,6 @@ class Solution:
         for num in nums:
             curr <<= 1
             curr |= num
-            ans.append(curr % 5 == 0)
+            curr %= 5
+            ans.append(curr == 0)
         return ans
