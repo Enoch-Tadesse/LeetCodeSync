@@ -4,12 +4,10 @@ class Solution:
             return sum(nums)
         ans = 0
         for i in range(len(nums)):
-            t, nt = 0 , 0
+            r, nr = 0 , 0
             for j in range(i + 1, len(nums) + i):
                 j = j % len(nums)
-                t, nt = max(t, nt + nums[j]), t
-            ans = max(ans, t, nt)
-            if i > 0:
-                break
+                num = nums[j]
+                r, nr = nr + num, max(r, nr)
+            ans = max(ans, r, nr)
         return ans
-        
