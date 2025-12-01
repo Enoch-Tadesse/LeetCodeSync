@@ -1,17 +1,18 @@
 class Solution:
     def subarraysWithKDistinct(self, nums: List[int], k: int) -> int:
-        return self.atLeast(nums, k) - self.atLeast(nums, k+1)
-        
-    def atLeast(self, nums, k):
-        seen = defaultdict(int)
-        counter = 0
-        left = 0
-        for right in range(len(nums)):
-            seen[nums[right]] += 1
-            while len(seen) >= k:
-                counter += len(nums) - right
-                seen[nums[left]] -= 1
-                if seen[nums[left]] == 0:
-                    del seen[nums[left]]
-                left += 1
-        return counter
+        return self.strictLess(nums, k + 1) - self.strictLess(nums, k)
+
+    def strictLess(self,s,k):
+        counter = defaultdict(int)
+        ans = 0
+        l = 0
+        for r in range(len(s)):
+            counter[s[r]] += 1
+            while len(counter) >= k:
+                counter[s[l]] -= 1
+                if counter[s[l]] == 0:
+                    del counter[s[l]]
+                l += 1
+            ans += (r - l + 1)
+        return ans
+
