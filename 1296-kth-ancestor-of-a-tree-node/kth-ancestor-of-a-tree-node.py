@@ -10,7 +10,7 @@ class TreeAncestor:
 
         for j in range(1, self.LOG):
             for i in range(n):
-                if self.up[i][j - 1] != -1:
+                if self.up[i][j -1] != -1:
                     self.up[i][j] = self.up[ self.up[i][j - 1] ][j-1]
 
     def getKthAncestor(self, node: int, k: int) -> int:
