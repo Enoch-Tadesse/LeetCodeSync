@@ -9,8 +9,9 @@ class Solution:
         def dfs(curr):
             nonlocal ans
             ret = 0
-            a, b = float("-inf"), float("-inf")
+            a, b = 0, 0
             for nei in adj[curr]:
+                
                 x = dfs(nei)
                 if s[nei] != s[curr]:
                     ret = max(ret, x)
@@ -18,10 +19,9 @@ class Solution:
                         a, b = x , a
                     elif x >= b:
                         b = x
-            a = max(a, 0)
-            b = max(b, 0)
             
             ans = max(ans, a + b + 1)
             return ret + 1
+
         dfs(0)
         return ans
