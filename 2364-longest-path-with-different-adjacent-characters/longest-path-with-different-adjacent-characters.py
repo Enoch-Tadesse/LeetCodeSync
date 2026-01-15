@@ -8,18 +8,20 @@ class Solution:
 
         def dfs(curr):
             nonlocal ans
-            cand = []
             ret = 0
+            a, b = float("-inf"), float("-inf")
             for nei in adj[curr]:
                 x = dfs(nei)
                 if s[nei] != s[curr]:
                     ret = max(ret, x)
-                    cand.append(x)
-            cand.sort(reverse=True)
-            if len(cand) == 1:
-                ans = max(ans, cand[0] + 1)
-            elif len(cand) >= 2:
-                ans = max(ans, cand[0] + cand[1] + 1)
+                    if x >= a:
+                        a, b = x , a
+                    elif x >= b:
+                        b = x
+            a = max(a, 0)
+            b = max(b, 0)
+            
+            ans = max(ans, a + b + 1)
             return ret + 1
         dfs(0)
         return ans
