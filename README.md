@@ -11,6 +11,7 @@ LeetCodeRepo
 | [0342-power-of-four](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0342-power-of-four) |
 | [0412-fizz-buzz](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0412-fizz-buzz) |
 | [1013-fibonacci-number](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1013-fibonacci-number) |
+| [2469-convert-the-temperature](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2469-convert-the-temperature) |
 | [2491-smallest-even-multiple](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2491-smallest-even-multiple) |
 ## String
 |  |
