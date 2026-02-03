@@ -178,6 +178,7 @@ LeetCodeRepo
 | [0543-diameter-of-binary-tree](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0543-diameter-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0695-max-area-of-island) |
 | [0794-swim-in-rising-water](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0794-swim-in-rising-water) |
+| [1192-critical-connections-in-a-network](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1192-critical-connections-in-a-network) |
 | [2121-find-if-path-exists-in-graph](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2121-find-if-path-exists-in-graph) |
 ## Union Find
 |  |
@@ -250,4 +251,12 @@ LeetCodeRepo
 |  |
 | ------- |
 | [2280-count-good-triplets-in-an-array](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/2280-count-good-triplets-in-an-array) |
+## Graph Theory
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1192-critical-connections-in-a-network) |
+## Biconnected Component
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1192-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
