@@ -1,56 +1,33 @@
 class Solution:
-    def maxSumTrionic(self, nums: List[int]) -> int:
-        n = len(nums)
-        ans = float("-inf")
-        i = 0
-
-        while i < n:
-            j = i + 1
-            res = 0
-
-            # first segment: increasing segment
-            while j < n and nums[j - 1] < nums[j]:
-                j += 1
-            p = j - 1
-
-            if p == i:  # 没有有效的increasing segment
-                i += 1
-                continue
-
-            # second segment: decreasing segment
-            res += nums[p] + nums[p - 1]
-            while j < n and nums[j - 1] > nums[j]:
-                res += nums[j]
-                j += 1
-            q = j - 1
-
-            if q == p or q == n - 1 or (j < n and nums[j] <= nums[q]):
-                i = q
-                continue
-
-            # third segment: increasing segment
-            res += nums[q + 1]
-
-            # find the maximum sum of the third segment
-            max_sum = 0
-            curr_sum = 0
-            k = q + 2
-            while k < n and nums[k] > nums[k - 1]:
-                curr_sum += nums[k]
-                max_sum = max(max_sum, curr_sum)
-                k += 1
-            res += max_sum
-
-            # find the maximum sum of the first segment
-            max_sum = 0
-            curr_sum = 0
-            for k in range(p - 2, i - 1, -1):
-                curr_sum += nums[k]
-                max_sum = max(max_sum, curr_sum)
-            res += max_sum
-
-            # update answer
-            ans = max(ans, res)
-            i = q
-
-        return ans
+    def maxSumTrionic(self, a: List[int]) -> int:
+        n = len(a)
+        i_s = [-1]*n
+        d_s = [-1]*n
+        err = [-1]*n
+        pre = [0]*(n+1)
+        i_s[n-1]=d_s[n-1]=n-1
+        for i in range(n): pre[i+1] = pre[i] + a[i]
+        for i in range(n-1):
+            if a[i] >= a[i+1]: i_s[i]=i
+            if a[i] <= a[i+1]: d_s[i]=i
+            if a[i] == a[i+1]:err[i+1]=i+1
+        for i in range(n-2,-1,-1):
+            if i_s[i]==-1:i_s[i]=i_s[i+1]
+            if d_s[i]==-1:d_s[i]=d_s[i+1]
+            if err[i]==-1:err[i]=err[i+1]
+        res = float('-inf')
+        for i in range(n):
+            if i_s[i]==-1:break
+            ist = i_s[i]
+            if ist==i:continue
+            dst = d_s[ist]
+            if dst==ist:continue
+            if dst==-1:break
+            fst = i_s[dst]
+            if fst==-1:break
+            if fst==dst:continue
+            ei = err[i]
+            if ei+1 and ei <= fst and ei != i: continue
+            val = max(pre[fst+1]-pre[i], pre[dst+2]-pre[i])
+            res = max(res,val)
+        return res
