@@ -21,6 +21,7 @@ LeetCodeRepo
 | [0387-first-unique-character-in-a-string](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0387-first-unique-character-in-a-string) |
 | [0412-fizz-buzz](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0412-fizz-buzz) |
 | [0443-string-compression](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0443-string-compression) |
+| [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 ## Simulation
 |  |
 | ------- |
@@ -32,6 +33,7 @@ LeetCodeRepo
 | [0387-first-unique-character-in-a-string](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0387-first-unique-character-in-a-string) |
 | [1034-subarrays-with-k-different-integers](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1034-subarrays-with-k-different-integers) |
 | [1039-find-the-town-judge](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1039-find-the-town-judge) |
+| [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 | [1830-count-good-meals](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1830-count-good-meals) |
 ## Queue
 |  |
@@ -81,6 +83,7 @@ LeetCodeRepo
 |  |
 | ------- |
 | [0334-increasing-triplet-subsequence](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0334-increasing-triplet-subsequence) |
+| [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 ## Database
 |  |
 | ------- |
@@ -113,6 +116,7 @@ LeetCodeRepo
 | [0148-sort-list](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0148-sort-list) |
 | [0414-third-maximum-number](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0414-third-maximum-number) |
 | [0941-sort-array-by-parity](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/0941-sort-array-by-parity) |
+| [1647-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Enoch-Tadesse/LeetCodeSync/tree/master/1647-minimum-deletions-to-make-character-frequencies-unique) |
 ## Merge Sort
 |  |
 | ------- |
