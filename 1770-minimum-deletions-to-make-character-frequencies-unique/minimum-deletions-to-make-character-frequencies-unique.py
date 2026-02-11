@@ -1,14 +1,15 @@
 class Solution:
     def minDeletions(self, s: str) -> int:
         n = len(s)
-        cnts = [0] * (n + 2)
 
         counts = Counter(s)
+        _max = max(counts.values())
+        cnts = [0] * (_max + 1)
         for _ , v in counts.items():
             cnts[v] += 1
         ans = 0
 
-        for i in range(n, 0, -1):
+        for i in range(_max, 0, -1):
             c = cnts[i]
             # c <= 1 means there is no collision on this count
             if c <= 1:
