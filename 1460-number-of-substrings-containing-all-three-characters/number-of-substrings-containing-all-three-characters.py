@@ -1,16 +1,17 @@
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:
-        n = len(s)
-        special = {'a', 'b', 'c'}
-        counter = 0
-        curr = defaultdict(int)
-        left = 0
-        for right in range(len(s)):
-            curr[s[right]] += 1
-            while len(curr) == len(special):
-                counter += n - right
-                curr[s[left]] -= 1
-                if curr[s[left]] == 0:
-                    del curr[s[left]]
-                left += 1
-        return counter
+        cnt = defaultdict(int)
+
+        def valid():
+            return cnt['a'] > 0 and cnt['b'] > 0 and cnt['c'] > 0
+        
+        ans = 0
+
+        l = 0
+        for r in range(len(s)):
+            cnt[s[r]] += 1
+            while valid():
+                ans += len(s) - r
+                cnt[s[l]] -= 1
+                l += 1
+        return ans
