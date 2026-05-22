@@ -2,9 +2,11 @@ class Trie:
     def __init__(self):
         self.ch = [None for _ in range(26)]
         self.end = False
+        self.cnt = 0
     def insert(self, word):
         curr = self
         for w in word:
+            curr.cnt += 1
             idx = ord(w) - ord('a')
             if not curr.ch[idx]:
                 curr.ch[idx] = Trie()
@@ -15,14 +17,10 @@ class Trie:
         ans = []
         temp = []
         def dfs(curr):
-            if curr.end:
-                for nei in curr.ch:
-                    if nei:
-                        break
-                else:
-                    val = "".join(temp)
-                    ans.append(val[::-1])
-                    return
+            if curr.end and not curr.cnt:
+                val = "".join(temp)
+                ans.append(val[::-1])
+                return
             for i, nei in enumerate(curr.ch):
                 if nei:
                     temp.append(chr(i + ord('a')))
