@@ -4,8 +4,9 @@ class Solution:
 
         def sum(num):
             g = 0
-            for n in str(num):
-                g += int(n)
+            while num > 0:
+                g += num % 10
+                num //= 10
             return g
         for num in nums:
             ans = min(ans, sum(num))
