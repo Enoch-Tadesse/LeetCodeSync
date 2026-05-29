@@ -21,7 +21,7 @@ class Solution:
             par[px] = py
 
         def factor(x, i):
-            while x > 1:
+            while x != 1:
                 fac[pre[x]].add(i)
                 x //= pre[x]
 
