@@ -7,7 +7,7 @@
 class Solution:
     def createBinaryTree(self, descriptions: List[List[int]]) -> Optional[TreeNode]:
         nodes = dict()
-        roots = set()
+        cand = set()
         for a, b, t in descriptions:
             if a not in nodes:
                 nodes[a] = TreeNode(val=a)
@@ -17,9 +17,9 @@ class Solution:
                 nodes[a].right = nodes[b]
             else:
                 nodes[a].left = nodes[b]
-            roots.add(b)
+            cand.add(b)
         for k, v in nodes.items():
-            if k not in roots:
+            if k not in cand:
                 return v
         
         
