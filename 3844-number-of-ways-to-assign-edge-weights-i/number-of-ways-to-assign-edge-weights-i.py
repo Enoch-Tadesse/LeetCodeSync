@@ -18,4 +18,4 @@ class Solution:
                 depth = max(depth, dfs(nei) + 1)
             return depth
 
-        return pow(2, dfs(1) - 1, 10 ** 9 + 7) % (10 ** 9 + 7)
+        return pow(2, dfs(1) - 1, 10 ** 9 + 7)
